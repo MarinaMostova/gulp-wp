@@ -36,8 +36,8 @@ function watching() {
 
 function browsersync() {
   browserSync.init({
-    proxy: "http://tsugli/",
-    host: "tsugli",
+    proxy: "http://projectName/",
+    host: "projectName",
     open: "external",
   });
 }
